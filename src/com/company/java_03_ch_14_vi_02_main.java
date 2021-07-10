@@ -14,6 +14,9 @@ public class java_03_ch_14_vi_02_main {
 //        System.out.println(name.equals("Shajidur"));
 //        System.out.println(name.equalsIgnoreCase("Shajidur"));
 //        System.out.println(name);
+//        System.out.println(34);
+//        System.out.println(name.lastIndexOf('r'));
+//        System.out.println(name.indexOf('r'));
 
     }
 }
