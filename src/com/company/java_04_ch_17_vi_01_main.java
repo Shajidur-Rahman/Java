@@ -6,6 +6,7 @@ public class java_04_ch_17_vi_01_main {
         boolean isTrue = age == 132;
         if(isTrue){
             System.out.println("Yes");
+            System.out.println("amar ");
         }
         else {
             System.out.println("No");
