@@ -9,6 +9,6 @@ public class java_04_ch_16_vi_01_main {
         else {
             System.out.println("No ✋");
         }
-        // 8:29
+        // finished
     }
 }
