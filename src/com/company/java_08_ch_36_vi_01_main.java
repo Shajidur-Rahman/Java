@@ -5,10 +5,14 @@ class details{
     String name ;
     int age;
     String school;
+    int salary;
     public void prontDetails(){
         System.out.println("My name is "+ name);
         System.out.println("My age is " + age);
         System.out.println("My School is " + school);
+    }
+    public int salary(){
+        return salary;
     }
 }
 
@@ -25,18 +29,10 @@ public class java_08_ch_36_vi_01_main {
         mushfiq.name = "Mushfiq";
         mushfiq.age = 12;
         mushfiq.school = "Girls School";
+        mushfiq.salary = 23;
 
-        System.out.print("Person name:  ");
-        String ask = input.nextLine();
-        if (ask == "shajidur"){
-            shajidur.prontDetails();
-        }
-        else if (ask == "mushfiq"){
-            mushfiq.prontDetails();
-        }
-        else {
-            System.out.println("Not found");
-        }
+        int salary = mushfiq.salary;
+        System.out.println(salary);
 
     }
 }
