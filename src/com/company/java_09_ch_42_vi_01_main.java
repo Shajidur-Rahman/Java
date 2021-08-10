@@ -4,6 +4,11 @@ class myemployee2{
     private String name;
     private int id;
 
+    public myemployee2(){
+        id = 0;
+        name = "N/A";
+    }
+
     public myemployee2(int myid,String myname){
      id = myid;
      name = myname;
@@ -20,5 +25,8 @@ public class java_09_ch_42_vi_01_main {
         myemployee2 shajidur = new myemployee2(1223, "Shajidur Rahman");;
         System.out.println(shajidur.getName());
         System.out.println(shajidur.getId());
+        myemployee2 mushfiq = new myemployee2();
+        System.out.println(mushfiq.getName());
+        System.out.println(mushfiq.getId());
     }
 }
