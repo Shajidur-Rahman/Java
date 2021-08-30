@@ -1,7 +1,7 @@
 package com.company;
 
 class MyThread extends Thread{
-    @Override
+//    @Override
     public void run(){
         int i = 0;
         while (i < 2000){
